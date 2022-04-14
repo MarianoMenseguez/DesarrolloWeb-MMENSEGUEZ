@@ -25,14 +25,17 @@
     border: solid white;
     animation: from-right 4s ease;
   }
-  .footer1 {
-    text-align: end;
-    font-size: 100%;
+  .footer {
+    padding: 5px;
+    margin: 5px solid white;
     background-color: black;
     color: white;
-    border: solid white;
-    grid-area: footer1;
-    }
+    display: block;
+    text-align:center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; 
+  }
   .body2 {
     background-color: rgb(24, 181, 233);
     margin: 0;
