@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body1 {
+  background-color: rgb(24, 181, 233);
+  margin: 0;
+  padding: 0;
+}
+.body1 .li {
+  color: white;
+}
+
+.main1 {
+  text-align: center;
+  border: solid white;
+  background-color: rgb(24, 181, 233);
+  color: white;
+}
+.main1 .imagen1 {
+  width: 45%;
+  height: 30%;
+  border: solid white;
+  animation: from-right 4s ease;
+}
+
+.footer {
+  padding: 5px;
+  margin: 5px solid white;
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.body2 {
+  background-color: rgb(24, 181, 233);
+  margin: 0;
+  padding: 0;
+}
+.body2 #historia {
+  text-align: center;
+}
+
+.body3 {
+  background-color: rgb(24, 181, 233);
+  margin: 0;
+  padding: 0;
+}
+.body3 .imagen3 {
+  width: 45%;
+  height: 45%;
+  transition: 3seg;
+}
+.body3 #vientos {
+  width: 45%;
+  height: 30%;
+  border: solid white;
+  animation: from-right 4s ease;
+}
+.body3 #bombos {
+  width: 45%;
+  height: 30%;
+  border: solid white;
+  animation: from-right 4s ease;
+}
+
+.body4 {
+  background-color: rgb(24, 181, 233);
+  margin: 0;
+  padding: 0;
+}
+
+.body5 {
+  background-color: rgb(24, 181, 233);
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translatex(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

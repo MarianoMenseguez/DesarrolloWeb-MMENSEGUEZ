@@ -1,29 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
 }
-  .body1 {
+.body1 {
     background-color: rgb(24, 181, 233);
     margin: 0;
     padding: 0;
+    .li {
+        color: white;
+      }
   }
-  .li {
-    color: white;
-  }
-  
   .main1 {
     text-align: center;
     border: solid white;
     background-color: rgb(24, 181, 233);
     color: white;
-    grid-area: main1;
-  }
-   .imagen1 {
-    width: 45%;
-    height: 30%;
-    border: solid white;
-    animation: from-right 4s ease;
+
+    .imagen1 {
+        width: 45%;
+        height: 30%;
+        border: solid white;
+        animation: from-right 4s ease;
+      }
   }
   .footer {
     padding: 5px;
@@ -40,31 +38,31 @@
     background-color: rgb(24, 181, 233);
     margin: 0;
     padding: 0;
-  }
-  #historia {
-    text-align: center;
+    #historia {
+        text-align: center;
+      }
   }
   .body3 {
     background-color: rgb(24, 181, 233);
     margin: 0;
     padding: 0;
-  }
-  .imagen3 {
-    width: 45%;
-  height: 45%;
-  transition: 3seg;
-  }
-  #vientos {
-    width: 45%;
-    height: 30%;
-    border: solid white;
-    animation: from-right 4s ease;
-  }
-  #bombos {
-    width: 45%;
-    height: 30%;
-    border: solid white;
-    animation: from-right 4s ease;
+    .imagen3 {
+        width: 45%;
+      height: 45%;
+      transition: 3seg;
+      }
+      #vientos {
+        width: 45%;
+        height: 30%;
+        border: solid white;
+        animation: from-right 4s ease;
+      }
+      #bombos {
+        width: 45%;
+        height: 30%;
+        border: solid white;
+        animation: from-right 4s ease;
+      }
   }
   .body4 {
     background-color: rgb(24, 181, 233);
