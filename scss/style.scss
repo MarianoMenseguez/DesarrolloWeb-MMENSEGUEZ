@@ -1,9 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@import "resets";
+@import "variable";
+@import "mixin";
 .body1 {
-    background-color: rgb(24, 181, 233);
+  background-color: $color;
     margin: 0;
     padding: 0;
     .li {
@@ -13,8 +12,11 @@
   .main1 {
     text-align: center;
     border: solid white;
-    background-color: rgb(24, 181, 233);
+    background-color: $color;
     color: white;
+    #lp {
+      @extend #historia
+    }
 
     .imagen1 {
         width: 45%;
@@ -35,15 +37,24 @@
     margin-left: -15px; 
   }
   .body2 {
-    background-color: rgb(24, 181, 233);
+    background-color: $color;
     margin: 0;
     padding: 0;
-    #historia {
-        text-align: center;
-      }
+  
   }
+    #historia {
+       @include flexcenter(column);
+      width: 80%;
+      margin: 0 auto;
+        font-weight: map-get($font-weights, bold);
+        
+      &:hover {
+        color: black
+       }
+    }
+  
   .body3 {
-    background-color: rgb(24, 181, 233);
+    background-color: $color;
     margin: 0;
     padding: 0;
     .imagen3 {
@@ -65,12 +76,12 @@
       }
   }
   .body4 {
-    background-color: rgb(24, 181, 233);
+    background-color: $color;
     margin: 0;
     padding: 0;
   }
   .body5 {
-    background-color: rgb(24, 181, 233);
+    background-color: $color;
     margin: 0;
     padding: 0;
   }
